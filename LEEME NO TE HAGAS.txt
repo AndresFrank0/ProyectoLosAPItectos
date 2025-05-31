@@ -1,3 +1,7 @@
+Crea el entorno virtual venv
+
+python -m venv venv
+
 primero entren al entorno virtual desde la consola del visual
 
 python -m venv\Scripts\activate
