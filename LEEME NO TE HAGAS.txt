@@ -1,0 +1,27 @@
+primero entren al entorno virtual desde la consola del visual
+
+python -m venv\Scripts\activate
+
+o tambien pueden usar
+
+venv\Scripts\activate
+
+
+y se daran cuenta que les saldra al inicio de la linea de comando un (venv), eso significa que esta activado el entorno virtual
+abran el Docker  (ya deberian tenerlo instalado)
+y en la consola del Visual ejecuten:
+
+docker-compose up --build
+
+y les deberia de instalar todo todito se debe tardar alguito poco-bastante, todo depende de la velocidad de su internet
+
+
+cuando no haya errores de nada, los ultimos 3 mensajitos de la consola deberian ser:
+
+app-1  | INFO:     Application startup complete.                                                                                                                                  
+app-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+app-1  | Database tables created.  
+
+Al salirle eso copien este link de abajo y lo pegan en el navegador y les deberia abrir el Swagger y deberia de coincidir con la foto que pase
+
+http://localhost:8000/docs#/
